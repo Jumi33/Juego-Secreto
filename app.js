@@ -3,6 +3,8 @@ let intentos = 1;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
+console.log("Prueba git");
+
 function verificarIntento() {
     //el .getElementById retorna el objeto, para obtener el valor usamos el metodo .value para que retorne el valor
     let numeroUsuario = parseInt(document.getElementById('uno').value);
